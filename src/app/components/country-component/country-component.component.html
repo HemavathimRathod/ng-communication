@@ -1,0 +1,8 @@
+<div>
+    <div class="inline">
+       <div class="span-width">Country:</div>
+       <select [(ngModel)]="selectedCountry" (ngModelChange)="updateSelectedValue($event)">
+          <option *ngFor="let obj of country" [value]="obj">{{obj}}</option>
+       </select>
+    </div>
+ </div>

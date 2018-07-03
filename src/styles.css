@@ -1,0 +1,9 @@
+/* You can add global styles to this file, and also import other style files */
+.span-width{
+    width:60px
+  }
+  
+.inline{
+  display: inline-flex;
+}
+

@@ -1,0 +1,6 @@
+<div class="inline margin-top-10">
+    <div class="span-width">State:</div>
+    <select [(ngModel)]="selectedState" (ngModelChange)="updateSelectedValue()">
+        <option *ngFor="let obj of state" [value]="obj">{{obj}}</option>
+    </select>
+ </div>

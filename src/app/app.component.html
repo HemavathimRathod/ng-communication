@@ -1,0 +1,15 @@
+<!--The content below is only a placeholder and can be replaced.-->
+<div style="text-align:center">
+    <h1>
+       Sample app
+    </h1>
+ </div>
+ <div>
+    <div class="container-div">
+       <span>Address:</span>
+       <span>{{addressDetails.country? ' Country: '+addressDetails.country : ''}}</span>
+       <span>{{addressDetails.state? ' , State: '+addressDetails.state : ''}}</span>
+    </div>
+    <app-country-component ></app-country-component>
+    <app-state-component ></app-state-component>
+ </div>
